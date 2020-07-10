@@ -1,6 +1,5 @@
 module Prettify where
 
-import           Numeric
 import           Prelude                 hiding ( (<>) )
 
 data Doc = Empty
@@ -53,7 +52,7 @@ line :: Doc
 line = Line
 
 group :: Doc -> Doc
-group x = flatten (Union x x)
+group x = flatten x `Union` x
 
 flatten :: Doc -> Doc
 flatten (Concat x y) = flatten x `Concat` flatten y
