@@ -4,16 +4,16 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 017c31ac528e20a27ebdf791cc24c5ce8d3f030b96dadfc0dd44ec9039bbc00a
+-- hash: 2df18234586662779bc0a5bdd873dd2f81560d98ec7902df756b9704003ccde4
 
 name:           hs2json
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/githubuser/hs2json#readme>
 homepage:       https://github.com/githubuser/hs2json#readme
 bug-reports:    https://github.com/githubuser/hs2json/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2020 Author name here
+author:         Lucas Machado
+maintainer:     machadolucasvp@gmail.com
+copyright:      2020 Lucas Machado
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -27,7 +27,7 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Json
   other-modules:
       Paths_hs2json
   hs-source-dirs:
