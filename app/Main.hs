@@ -1,6 +1,15 @@
 module Main where
 
-import Lib
+import           Json
+import           Prettify
+import           PrettyJson
+
+
+value = renderJson
+  $ JsonObject [("Hello", JsonString "World!"), ("Haskell", JsonBool True)]
 
 main :: IO ()
-main = someFunc
+main = do
+  putStrLn (pretty 10 value)
+  putStrLn (pretty 20 value)
+  putStrLn (pretty 30 value)
