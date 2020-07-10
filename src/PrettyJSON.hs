@@ -1,4 +1,4 @@
-module PrettyJson where
+module PrettyJSON where
 
 import           Numeric                        ( showHex )
 import           Data.Char                      ( ord )
@@ -6,7 +6,7 @@ import           Data.Bits                      ( shiftR
                                                 , (.&.)
                                                 )
 import           Prelude                 hiding ( (<>) )
-import           Json
+import           JSON
 import           Prettify
 
 renderJson :: Json -> Doc

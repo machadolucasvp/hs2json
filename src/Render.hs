@@ -1,7 +1,7 @@
 module Render where
 
 import           Data.List                      ( intercalate )
-import           Json
+import           JSON
 
 renderJson :: Json -> String
 renderJson (JsonString s    ) = show s

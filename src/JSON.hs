@@ -1,4 +1,4 @@
-module Json where
+module JSON where
 
 data Json = JsonString String
                 | JsonNumber Double

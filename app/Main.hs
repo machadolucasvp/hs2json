@@ -1,8 +1,8 @@
 module Main where
 
-import           Json
+import           JSON
 import           Prettify
-import           PrettyJson
+import           PrettyJSON
 
 
 value = renderJson
